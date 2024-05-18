@@ -3,8 +3,9 @@
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Hero from "@/components/modules/Hero";
-import Grid from "@/components/ui/Grid";
+// import Grid from "@/components/ui/Grid";
 import RecentProjects from "@/components/modules/RecentProjects";
+import Grid from "@/components/ui/Grid";
 
 const Home = () => {
   return (
