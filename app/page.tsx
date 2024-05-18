@@ -8,6 +8,7 @@ import RecentProjects from "@/components/modules/RecentProjects";
 import Grid from "@/components/ui/Grid";
 import Clients from "@/components/modules/ClientFeedbacks";
 import Experience from "@/components/modules/WorkExperience";
+import Process from "@/components/modules/Process";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
         <RecentProjects />
         <Clients />
         <Experience />
-        {/*<Approach />*/}
+        <Process />
         {/*<Footer />*/}
       </div>
     </main>
