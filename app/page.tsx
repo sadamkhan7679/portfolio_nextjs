@@ -7,6 +7,7 @@ import Hero from "@/components/modules/Hero";
 import RecentProjects from "@/components/modules/RecentProjects";
 import Grid from "@/components/ui/Grid";
 import Clients from "@/components/modules/ClientFeedbacks";
+import Experience from "@/components/modules/WorkExperience";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
         {/*<Grid />*/}
         <RecentProjects />
         <Clients />
-        {/*<Experience />*/}
+        <Experience />
         {/*<Approach />*/}
         {/*<Footer />*/}
       </div>
